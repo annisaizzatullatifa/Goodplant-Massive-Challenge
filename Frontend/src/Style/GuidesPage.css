@@ -1,0 +1,87 @@
+.banner {
+    background-image: url('../Gambar/C1.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    position: relative;
+    color: white;
+}
+
+.banner .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.banner p {
+    font-size: 1.2rem;
+}
+
+/* GuidesCard styles */
+.card {
+    border: none;
+    transition: transform 0.2s, box-shadow 0.2s;
+    margin-left: auto; 
+    margin-right: auto; 
+    max-width: 400px; 
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.card-text {
+    margin-bottom: 1rem;
+}
+
+.btn-success {
+    background-color: #6FB357;
+    border: none;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+.btn-success:hover {
+    background-color: #5a9e44;
+    transform: scale(1.05);
+}
+
+/* UserReview styles */
+.user-review {
+    border-radius: 8px;
+}
+
+.review-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.review p {
+    margin: 0;
+}
+

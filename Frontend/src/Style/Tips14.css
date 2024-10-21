@@ -1,0 +1,71 @@
+/* src/Style/Tips.css */
+.container h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .container p {
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }
+
+  .container h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .container a {
+    color: #007bff;
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .image {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 600px; 
+    height: 70px; 
+    border-radius: 8px;
+  }
+
+  .alinea {
+    text-indent: 2em;
+    text-align: justify;
+    font-family: Georgia;
+    margin-top: 20px;
+  }
+
+  .alinea2,
+  .alinea3, 
+  .alinea4,
+  .alinea5,
+  .alinea6,
+  .alinea7,
+  .alinea8,
+  .alinea9,
+  .alinea10,
+  .alinea11,
+  .alinea12,
+  .alinea13,
+  .alinea14
+  {
+    text-indent: 2em;
+    text-align: justify;
+    font-family: Georgia;
+  }
+  
+  .date,
+  .sakinaR,
+  .sumber {
+    font-family: Tahoma;
+  }
+  
+
+  

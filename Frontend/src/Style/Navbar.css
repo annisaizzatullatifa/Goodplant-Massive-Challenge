@@ -1,0 +1,77 @@
+/* Navbar.css */
+.NavbarHeader {
+    background-color: #B6D92D;
+  }
+  
+  .text1 {
+    background-color: #B4D23C;
+  }
+  
+  .text2 {
+    background-color: #B4D23C;
+  }
+  
+  .NavbarHeader .navbar-brand img {
+    height: 40px; /* Atur ukuran logo */
+  }
+  
+  .NavbarHeader .nav-link {
+    color: #333333; /* Warna link default */
+    position: relative; /* Diperlukan untuk pseudo-elemen */
+    display: inline-block; /* Diperlukan untuk pseudo-elemen */
+    transition: color 0.3s ease-in-out; /* Transisi warna */
+  }
+  
+  .NavbarHeader .nav-link::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black; /* Warna underline */
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .NavbarHeader .nav-link:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
+  .NavbarHeader .nav-link:hover {
+    color:#B4D23C ; /* Warna link saat di-hover */
+  }
+  
+  .NavbarHeader .dropdown-item {
+    color: #333333; /* Warna item dropdown */
+    transition: background-color 0.3s, color 0.3s, transform 0.3s; /* Tambahkan transisi untuk animasi */
+  }
+  
+  .NavbarHeader .dropdown-item:hover {
+    background-color: #f8f9fa; /* Background item saat di-hover */
+    color: black; /* Warna teks item saat di-hover */
+    transform: scale(1.05); /* Efek pembesaran saat di-hover */
+  }
+  
+  /* Tambahan animasi hover keren */
+  .NavbarHeader .dropdown-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.05);
+    z-index: -1;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.3s ease-out;
+  }
+  
+  .NavbarHeader .dropdown-item:hover::before {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+  

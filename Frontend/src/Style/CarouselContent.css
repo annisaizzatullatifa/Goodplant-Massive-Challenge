@@ -1,0 +1,29 @@
+.carousel-caption{
+    margin-bottom: 230px !important;
+    text-align: left !important;
+}
+
+.carousel-title {
+    font-size: 90px !important;
+}
+
+.start-activity-button {
+    background-color: #C9E84E !important;
+    color: #434738  !important;
+    border-color: #C9E84E !important;
+    font-family: Arial !important;
+    font-weight: bold !important;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16) !important; 
+    transition: all 0.3s ease !important;
+}
+
+.start-activity-button:hover,
+.start-activity-button:focus {
+    color: #434738 !important;
+    background-color: #C9E84E !important; 
+    border-color: #C9E84E !important; 
+    transform: translateY(-3px) !important; 
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.16) !important; 
+}
+
+

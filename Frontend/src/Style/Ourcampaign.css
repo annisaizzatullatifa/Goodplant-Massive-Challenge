@@ -1,0 +1,79 @@
+.Content1 {
+    background-color: #B6D92D;
+}
+
+.Content2 {
+    background-color: white;
+}
+
+.text-center {
+    margin-top: 20px;
+    font-family: Tahoma;
+}
+
+.Content3 {
+    background-color: #F7F7F7;
+}
+.ourcbg{
+    background-color: #C9E84E;
+}
+.proud {
+    font-weight: bold;
+    margin-bottom: 20px !important;
+    color: #434738
+}
+
+.Pm, .Ui1, .Ui2, .Dev1, .Dev2, .Dev3 {
+    font-family: Tahoma;
+}
+
+.h4 {
+    font-family: Georgia !important;
+}
+
+.smart {
+    font-weight: bold;
+    color: #434738
+}
+
+.vision {
+    margin-top: 45px !important;
+    margin-bottom: 10px !important;
+    width: 100%; 
+    height: 396px !important;
+    text-align: top;
+}
+
+.mission {
+    margin-top: 45px !important;
+    margin-bottom: 10px !important;
+    width: 100%; 
+    height: 396px !important;
+}
+
+.mis {
+    text-align: center;
+    margin-bottom: 20px !important;
+    margin-top: -10px !important;
+}
+
+.misord {
+    font-family: Georgia;
+}
+
+.vis {
+    text-align: center;
+    margin-top: 10px !important;
+    padding-bottom: 6px !important;
+}
+
+.lead {
+    text-align: justify;
+    margin-bottom: 300px !important;
+    font-family: Georgia;
+}
+
+.git, .linkedin, .instagram {
+    margin-right: 10px; 
+    color: #434738 !important;
+}

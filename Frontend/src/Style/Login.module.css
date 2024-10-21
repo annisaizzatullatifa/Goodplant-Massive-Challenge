@@ -1,0 +1,165 @@
+.login-form {
+  background-size: cover;
+  background-image: url('../Gambar/Loginbackground.png'); /* Ganti dengan path gambar Anda */
+}
+/* Register.css */
+.register-form {
+  background-image: url('../Gambar/Loginbackground.png'); /* Ganti dengan path gambar Anda */
+  background-position: left center; /* Letakkan gambar di sebelah kiri */
+  background-size: cover; /* Atur ukuran gambar agar mencakup seluruh area */
+  display: flex;
+  justify-content: flex-start; /* Align form to the left */
+  align-items: center; /* Center align items vertically */
+  padding-left: 20px; /* Padding to prevent content from touching the left edge */
+}
+
+.button-1 .img-google {
+  margin: 3%;
+  width: 20px; /* Lebar gambar */
+  height: 20px; /* Tinggi gambar */
+}
+
+.wrapper2 { 
+  width: 420px;
+  border: 2px solid rgba(255, 255, 255, .2);
+  backdrop-filter: blur(5px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+  color: #333;
+  border-radius: 10px;
+  padding: 30px 40px;
+  margin-top: 40px;
+  margin-bottom: 45px;
+  background-color: rgba(255, 255, 255, 0.9); /* Menambahkan background putih transparan */
+  animation: fadeIn 1s ease-in-out; /* Animasi masuk */
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+      transform: translateY(-20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+.wrapper2 .input-box {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  background-color: #f0f0f0;
+  border-radius: 40px;
+  margin-bottom: 15px; /* Menambahkan margin bawah */
+  transition: background-color 0.3s, transform 0.3s; /* Transisi untuk background dan transform */
+}
+
+.input-box input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: 2px solid rgba(0, 0, 0, .2);
+  outline: none;
+  border-radius: 40px;
+  color: #333;
+  padding: 0 20px;
+  font-size: 16px;
+  transition: border-color 0.3s, transform 0.3s; /* Transisi untuk border-color dan transform */
+}
+
+.input-box input::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.input-box input:hover {
+  border-color: #C9E84E; /* Warna border saat di-hover */
+  transform: scale(1.05); /* Efek pembesaran saat di-hover */
+}
+
+.wrapper2 .remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  margin: -10px 0 15px;
+  color: #333;
+}
+
+.remember-forgot label input {
+  accent-color: #333;
+  margin-right: 4px;
+}
+
+.remember-forgot a {
+  color: #B6D92D;
+  text-decoration: none;
+}
+
+.remember-forgot a:hover {
+  text-decoration: underline;
+}
+
+.wrapper2 .button {
+  width: 100%;
+  margin: 10px 0;
+  height: 45px;
+  background: #B6D92D;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  cursor: pointer;
+  font-size: 16px;
+  color: white;
+  font-weight: 700;
+  transition: background 0.3s ease, transform 0.3s; /* Transisi untuk background dan transform */
+}
+
+.wrapper2 .button:hover {
+  background: #B6D92D; /* Warna saat di-hover */
+  transform: scale(1.05); /* Efek pembesaran saat di-hover */
+}
+
+.wrapper2 .button-1 {
+  width: 100%;
+  margin: 10px 0;
+  height: 45px;
+  background-color: #f8f8f8;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+  font-weight: 700;
+  text-align: center;
+  display: flex; /* Untuk align item secara horizontal */
+  align-items: center; /* Untuk align item secara vertikal */
+  justify-content: center; /* Untuk align item di tengah */
+  transition: background-color 0.3s ease, transform 0.3s; /* Transisi untuk background-color dan transform */
+}
+
+.wrapper2 .button-1:hover {
+  background-color: #e0e0e0; /* Warna saat di-hover */
+  transform: scale(1.05); /* Efek pembesaran saat di-hover */
+}
+
+.wrapper2 .register-link {
+  font-size: 14.5px;
+  text-align: center;
+  margin: 20px 0 15px;
+  color: #333;
+  transition: color 0.3s; /* Transisi untuk warna */
+}
+
+.register-link p a {
+  color: #B6D92D;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s; /* Transisi untuk warna */
+}
+
+.register-link p a:hover {
+  text-decoration: underline;
+  color: #B6D92D; /* Warna saat di-hover */
+}

@@ -1,0 +1,59 @@
+/* src/Style/Tips.css */
+.container h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .container p {
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }
+  
+  .container a {
+    color: #007bff;
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .image {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 600px; 
+    height: 200px; 
+    border-radius: 8px;
+  }
+
+  .alinea {
+    text-indent: 2em;
+    text-align: justify;
+    font-family: Georgia;
+    margin-top: 20px;
+  }
+
+  .alinea2, 
+  .alinea3
+  {
+    text-indent: 2em;
+    text-align: justify;
+    font-family: Georgia;
+  }
+  
+  .sakinaR {
+    font-family: Tahoma;
+  }
+
+  .date {
+    font-family: Tahoma;
+  }
+
+  .sumber {
+    font-family: Tahoma;
+  }
+  
+
+  

@@ -1,0 +1,50 @@
+.todo-list {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-right: 30px;
+  margin-left: 10px;
+}
+
+.todo-list h4 {
+  margin-bottom: 15px;
+  font-weight: bold;
+  color: #333;
+}
+
+.todo-list .list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo-list .form-group {
+  margin-top: 15px;
+}
+
+.todo-list .form-control {
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.todo-list .btn-primary {
+  margin-top: 10px;
+  background-color: #28a745;
+  border-color: #28a745;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.todo-list .btn-primary:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+
+.add{
+  margin-top: 20px !important;
+}
+
+.del {
+  margin-top: 20px !important;
+}

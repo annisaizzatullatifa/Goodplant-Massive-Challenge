@@ -1,0 +1,21 @@
+.image-upload-label {
+    cursor: pointer;
+  }
+  
+  .image-upload-label div {
+    border: 1px dashed #ccc;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .image-upload-label i {
+    font-size: 2rem;
+  }
+  
+  .image-upload-label p {
+    margin: 0;
+  }
+  
+  .Textarea{
+    box-shadow: 10px;
+  }

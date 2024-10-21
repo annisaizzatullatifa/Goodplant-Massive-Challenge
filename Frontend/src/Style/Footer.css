@@ -1,0 +1,63 @@
+.border-top {
+  border-top: 2px solid #000; /* You can customize the border color and style */
+}
+
+#footer{
+  background-color: #C9E84E;
+}
+
+#footer .site, 
+#footer .learn, 
+#footer .from-us {
+  color: #333;
+}
+
+#footer .site p, 
+#footer .learn p, 
+#footer .from-us p {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#footer ul {
+  padding: 0;
+  list-style-type: none; /* Menghilangkan bullet point dari ul */
+}
+
+#footer ul li {
+  margin-bottom: 5px;
+}
+
+#footer ul li a {
+  text-decoration: none; /* Menghilangkan underline dari a */
+  color: #000; /* Mengubah warna teks menjadi hitam */
+}
+
+#footer ul li a:hover {
+  color: #007bff; /* Menambahkan warna saat di-hover */
+}
+
+#footer .eml-input p {
+  font-weight: bold;
+}
+
+#footer .border-top {
+  border-top: 1px solid #e7e7e7;
+}
+
+#footer .border-top p {
+  margin-top: 10px;
+  color: #333;
+}
+
+#footer .site ul li a,
+#footer .learn ul li a,
+#footer .from-us ul li a {
+  color: #000; /* Warna teks hitam */
+}
+
+#footer .site ul li a:hover,
+#footer .learn ul li a:hover,
+#footer .from-us ul li a:hover {
+  color: #007bff; /* Warna teks saat di-hover */
+}

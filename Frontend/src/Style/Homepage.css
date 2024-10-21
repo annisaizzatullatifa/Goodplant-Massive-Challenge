@@ -1,0 +1,149 @@
+.Content1 {
+    padding-bottom: 20px;
+}
+
+.Content2 {
+    background-color: #C9E84E;
+    padding-bottom: 20px;
+}
+.background{
+    background-color: #C9E84E;
+
+}
+.Content3 {
+    padding-bottom: 20px;
+}
+
+.Row1, .Row2 {
+    border-radius: 25px;
+}
+
+.Button {
+    color: #434738;
+}
+
+.text-card {
+    font-size: large;
+    font-family: Arial;
+    height: 100% !important;
+    width: 100% !important;
+    background-color: #B6D92D;
+    padding: 20px;
+    border-radius: 15px !important;
+    color: #434738;
+}
+
+.text1, .text2 {
+    text-align: center;
+}
+
+.text1 {
+    background-color: #C9E84E;
+    font-family: Arial;
+    padding: 20px;
+}
+
+.text2 {
+    background-color: #C9E84E;
+    font-family: Arial;
+    padding: 20px;
+}
+
+.mt5-button{
+    width: 150px;
+    margin-top: 40px;
+    background-color: #C9E84E !important;
+    color: #434738  !important;
+    border-color: #C9E84E !important;
+    font-family: Arial !important;
+    font-weight: bold !important;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16) !important; 
+    transition: all 0.3s ease !important;
+}
+
+.mt5-button:hover {
+    background-color: #434738 !important;
+    color: #C9E84E !important;
+    font-weight: bold;
+    width: 150px;
+}
+
+.hGuides {
+    width: 30rem; 
+    height: 30rem;
+    margin-bottom: 30px;
+}
+
+.hPlants {
+    width: 30rem;
+    height: 30rem;
+    margin-bottom: 30px;
+}
+
+.contentCard1 {
+    width: 100% !important;
+    height: 100% !important;
+    border-radius: 15px !important;
+    overflow: hidden !important;
+}
+
+.contentCard1 .contentImg1 {
+    width: 100% !important;
+    height: 300% !important;
+    border-radius: 15px !important;
+}
+
+.plantsTitle {
+    background-color: white;
+    font-size: 23px !important;
+}
+
+.guidesTitle {
+    background-color: white;
+    font-size: 23px !important;
+}
+
+.easy, .user, .info, .up {
+    font-family: Tahoma !important;
+    font-weight: 500 !important;
+}
+
+.buttonStart{
+    width: 150px;
+    margin-top: 90px;
+    margin-left: 130px;
+    background-color: #C9E84E !important;
+    color: #434738  !important;
+    border-color: #C9E84E !important;
+    font-family: Arial !important;
+    font-weight: bold !important;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16) !important; 
+    transition: all 0.3s ease !important;
+}
+
+.buttonStart:hover {
+    background-color: #434738 !important;
+    color: #C9E84E !important;
+    font-weight: bold;
+    width: 150px;
+}
+
+.startNow {
+    margin-top: 40px !important;
+    margin-bottom: 40px;
+    margin-left: 90px;
+    text-align: left;
+}
+
+.whyUs {
+    text-align: center;
+}
+
+.sub1, .sub2, .sub3 {
+    color: #434738;
+    font-weight: bold;
+}
+
+.mLife {
+    font-weight: bold;
+}

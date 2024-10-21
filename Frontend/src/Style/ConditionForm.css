@@ -1,0 +1,57 @@
+.condition-form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 90px;
+}
+
+.condition-form h4 {
+  margin-bottom: 15px;
+  font-weight: bold;
+  color: #333;
+}
+
+.condition-form .form-group {
+  margin-bottom: 15px;
+}
+
+.condition-form .form-label {
+  font-weight: bold;
+  color: #333;
+}
+
+.condition-form .form-control {
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.condition-form .form-control:focus {
+  border-color: #28a745;
+  box-shadow: 0 0 5px rgba(40, 167, 69, 0.5);
+}
+
+.condition-form .form-file {
+  display: block;
+  margin-top: 10px;
+}
+
+.condition-form .btn-primary {
+  background-color: #28a745;
+  border-color: #28a745;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.condition-form .btn-primary:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+
+.imageUpload{
+  margin-top: 20px;
+}
+
+.subm {
+  margin-top: 20px;
+}
